@@ -1,0 +1,229 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1773506869
+<< metal1 >>
+rect 2 2732 1006 2776
+rect 1204 2732 2208 2776
+rect 2 1004 1006 1048
+rect 1204 1004 2208 1048
+rect 38 938 1234 940
+rect 38 896 2164 938
+rect 1160 894 2164 896
+rect 38 50 1042 52
+rect 38 8 2164 50
+rect 968 6 2164 8
+<< metal2 >>
+rect 2 2732 1006 2776
+rect 1204 2732 2208 2776
+rect 2 1004 1006 1048
+rect 1204 1004 2208 1048
+rect 38 938 1234 940
+rect 38 896 2164 938
+rect 1160 894 2164 896
+rect 38 50 1042 52
+rect 38 8 2164 50
+rect 968 6 2164 8
+<< metal3 >>
+rect 70 1306 938 1356
+rect 1278 1292 2146 1342
+rect -32 1170 1046 1220
+rect 1166 1168 2248 1218
+rect 106 294 980 344
+rect 1228 294 2102 344
+rect 10 182 1184 184
+rect 10 138 2202 182
+rect 1132 136 2202 138
+use sg13_lv_nmos_ALGMCM  sg13_lv_nmos_ALGMCM_0
+timestamp 0
+transform 1 0 540 0 1 474
+box -540 -474 540 474
+use sg13_lv_nmos_ALGMCM  sg13_lv_nmos_ALGMCM_1
+timestamp 0
+transform 1 0 1662 0 1 472
+box -540 -474 540 474
+use sg13_lv_pmos_ALNK73  sg13_lv_pmos_ALNK73_0
+timestamp 0
+transform 1 0 504 0 1 1890
+box -602 -894 602 894
+use sg13_lv_pmos_ALNK73  sg13_lv_pmos_ALNK73_1
+timestamp 0
+transform 1 0 1706 0 1 1890
+box -602 -894 602 894
+use via_Y6ZA6N  via_Y6ZA6N_0
+timestamp 0
+transform 1 0 33 0 1 165
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_1
+timestamp 0
+transform 1 0 237 0 1 163
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_2
+timestamp 0
+transform 1 0 441 0 1 163
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_3
+timestamp 0
+transform 1 0 645 0 1 163
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_4
+timestamp 0
+transform 1 0 849 0 1 163
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_5
+timestamp 0
+transform 1 0 1053 0 1 163
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_6
+timestamp 0
+transform 1 0 1155 0 1 163
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_7
+timestamp 0
+transform 1 0 1359 0 1 161
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_8
+timestamp 0
+transform 1 0 1563 0 1 161
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_9
+timestamp 0
+transform 1 0 1767 0 1 161
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_10
+timestamp 0
+transform 1 0 1971 0 1 161
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_11
+timestamp 0
+transform 1 0 2175 0 1 161
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_12
+timestamp 0
+transform 1 0 135 0 1 323
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_13
+timestamp 0
+transform 1 0 339 0 1 323
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_14
+timestamp 0
+transform 1 0 543 0 1 323
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_15
+timestamp 0
+transform 1 0 747 0 1 323
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_16
+timestamp 0
+transform 1 0 951 0 1 323
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_17
+timestamp 0
+transform 1 0 1257 0 1 323
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_18
+timestamp 0
+transform 1 0 1461 0 1 323
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_19
+timestamp 0
+transform 1 0 1665 0 1 323
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_20
+timestamp 0
+transform 1 0 1869 0 1 323
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_21
+timestamp 0
+transform 1 0 2073 0 1 323
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_22
+timestamp 0
+transform 1 0 -3 0 1 1199
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_23
+timestamp 0
+transform 1 0 201 0 1 1199
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_24
+timestamp 0
+transform 1 0 405 0 1 1199
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_25
+timestamp 0
+transform 1 0 609 0 1 1199
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_26
+timestamp 0
+transform 1 0 813 0 1 1199
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_27
+timestamp 0
+transform 1 0 1017 0 1 1199
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_28
+timestamp 0
+transform 1 0 99 0 1 1335
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_29
+timestamp 0
+transform 1 0 303 0 1 1335
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_30
+timestamp 0
+transform 1 0 507 0 1 1335
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_31
+timestamp 0
+transform 1 0 711 0 1 1335
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_32
+timestamp 0
+transform 1 0 915 0 1 1335
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_33
+timestamp 0
+transform 1 0 1199 0 1 1197
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_34
+timestamp 0
+transform 1 0 1403 0 1 1197
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_35
+timestamp 0
+transform 1 0 1607 0 1 1197
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_36
+timestamp 0
+transform 1 0 1811 0 1 1197
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_37
+timestamp 0
+transform 1 0 2015 0 1 1197
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_38
+timestamp 0
+transform 1 0 2219 0 1 1197
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_39
+timestamp 0
+transform 1 0 1301 0 1 1321
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_40
+timestamp 0
+transform 1 0 1505 0 1 1321
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_41
+timestamp 0
+transform 1 0 1709 0 1 1321
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_42
+timestamp 0
+transform 1 0 1913 0 1 1321
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_43
+timestamp 0
+transform 1 0 2117 0 1 1321
+box -29 -29 29 29
+<< end >>

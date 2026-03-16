@@ -1,0 +1,35 @@
+** sch_path: /foss/designs/opamp/opamp_schematic.sch
+**.subckt opamp_schematic VDD IN1 IN2 OUT CUR_IN
+*.iopin VDD
+*.ipin IN1
+*.ipin IN2
+*.opin OUT
+*.ipin CUR_IN
+XM1 net2 CUR_IN GND GND sg13_lv_nmos w=0.15u l=0.13u ng=1 m=1
+XM2 net1 net1 VDD VDD sg13_lv_pmos w=82u l=0.13u ng=82 m=1
+XM3 OUT1 net1 VDD VDD sg13_lv_pmos w=82u l=0.13u ng=82 m=1
+XM4 OUT1 IN2 net2 GND sg13_lv_nmos w=40u l=0.13u ng=40 m=1
+XM5 net1 IN1 net2 GND sg13_lv_nmos w=40u l=0.13u ng=40 m=1
+XM6 OUT OUT1 VDD VDD sg13_lv_pmos w=150u l=0.13u ng=150 m=1
+XM7 OUT CUR_IN GND GND sg13_lv_nmos w=0.15u l=0.13u ng=1 m=1
+XM8 CUR_IN CUR_IN GND GND sg13_lv_nmos w=0.15u l=0.13u ng=1 m=1
+I0 VDD CUR_IN 80u
+V1 VDD GND 2
+V2 IN1 IN2 SIN(0 0.025 1MEG 0 0 0)
+C1 OUT1 OUT 1.5p m=1
+C2 OUT GND 2p m=1
+**** begin user architecture code
+
+
+
+.lib cornerMOSlv.lib mos_tt
+.lib cornerMOShv.lib mos_tt
+.lib cornerHBT.lib hbt_typ
+.lib cornerRES.lib res_typ
+.lib cornerCAP.lib cap_typ
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end
